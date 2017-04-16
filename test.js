@@ -9,4 +9,6 @@ test(t => {
   t.false(a.peek());
   t.false(a.peek());
   t.false(a.next());
+  t.true(a.next());
+  t.false(a.next());
 });

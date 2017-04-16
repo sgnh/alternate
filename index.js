@@ -6,7 +6,7 @@ function Alternate() {
 Alternate.prototype.next = function() {
   var returnValue = this.values[this.index];
 
-  if (this.index < this.values.length) {
+  if (this.index < this.values.length - 1) {
     this.index++;
   } else {
     this.index = 0;

@@ -1,9 +1,9 @@
-function alternate() {
+function Alternate() {
   this.values = arguments;
   this.index = 0;
 }
 
-alternate.prototype.next = function() {
+Alternate.prototype.next = function() {
   var returnValue = this.values[this.index];
 
   if (this.index < this.values.length) {
@@ -15,8 +15,8 @@ alternate.prototype.next = function() {
   return returnValue;
 };
 
-alternate.prototype.peek = function() {
+Alternate.prototype.peek = function() {
   return this.values[this.index];
 };
 
-module.exports = alternate;
+module.exports = Alternate;

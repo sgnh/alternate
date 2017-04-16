@@ -1,7 +1,7 @@
 {
   "name": "alternate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alternate between two or more values",
   "main": "index.js",
   "scripts": {
     "test": "ava"

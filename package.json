@@ -14,7 +14,7 @@
     "url": "https://www.github.com/sgnh/alternate/issues"
   },
   "keywords": ["react"],
-  "author": "",
+  "author": "Steffen Hansen",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.19.1",

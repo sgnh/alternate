@@ -6,11 +6,11 @@ npm install --save alternate
 ```
 
 ## Usage
+### Example 1
 ```js
 const alternate = require('alternate');
-
 const a = new alternate(true, false);
-const b = new alternate('one', 'two', 3, 4);
+
 // .next()
 a.next() // returns true
 a.next() // returns false
@@ -25,12 +25,17 @@ a.next() // returns true
 
 a.peek() // returns false
 a.peek() // returns false
+```
+### Example 2
+```js
+const alternate = require('alternate');
+const a = new alternate('one', 'two', 3, 4);
 
-b.next() // returns 'one'
-b.next() // returns 'two'
-b.next() // returns 3
-b.next() // returns 4
-b.next() // returns 'one'
+a.next() // returns 'one'
+a.next() // returns 'two'
+a.next() // returns 3
+a.next() // returns 4
+a.next() // returns 'one'
 ```
 
 ## Usage with React

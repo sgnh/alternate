@@ -15,7 +15,7 @@
   },
   "keywords": ["react"],
   "author": "Steffen Hansen",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ava": "^0.19.1",
     "eslint": "^3.19.0"
